@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main()
 {
-int first=0,second=1,third,n;
+int f=0,s=1,t,n;
 scanf("%d",&n);
-printf("%d %d",first,second);
-third=first+second;
+printf("%d %d",f,s);
+t=f+s;
 for(i=2;i<=n;i++)
 {
-printf("%d",third);
-first=second;
-second=third;
+printf("%d",t);
+f=s;
+s=t;
 }
 return 0;
 }
