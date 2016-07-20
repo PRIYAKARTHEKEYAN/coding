@@ -1,19 +1,19 @@
 #include<stdio.h>
 int main()
 {
-int x,y,z;
-scanf("%d %d %d",&x,&y,&z);
-if(x>y&&x>z)
+int a,b,c;
+scanf("%d %d %d",&a,&b,&c);
+if(a>b&&a>c)
 {
-printf("x is largest");
+printf("a is largest");
 }
-if(y>x&&y>z)
+if(b>a&&b>c)
 {
-printf("y is largest");
+printf("b is largest");
 }
-if(z>x&&z>y)
+if(c>a&&c>b)
 {
-printf("z is largest");
+printf("c is largest");
 }
 return 0;
 }
